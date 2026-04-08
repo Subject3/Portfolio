@@ -10,6 +10,7 @@ export default function Navbar() {
         <a href="#hero">Home</a>
         <a href="#about">About</a> 
         <a href="#projects">Projects</a>
+        <a href="#labs">Labs</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>

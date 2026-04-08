@@ -13,8 +13,8 @@ export default function Experience() {
           <div className="experience-card">
             <div className="experience-header">
               <div>
-                <h3>Civil Engineer Inter</h3>
-                <p className="company">TechCorp Solutions</p>
+                <h3>Lab Technician Intern</h3>
+                <p className="company">UC Pavement Research Institute</p>
               </div>
 
               <div className="meta">

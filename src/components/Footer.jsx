@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-brand">
-          <h3>{"<Developer />"}</h3>
+          <h3>{"<Engineer />"}</h3>
           <p>
-            Passionate web developer creating beautiful and
-            functional digital experiences.
+            Passionate engineer from the bay solving 
+            problems one step at a time!
           </p>
         </div>
 
@@ -35,16 +35,16 @@ const Footer = () => {
 
       {/* SOCIAL */}
       <div className="footer-social">
-        <a href="https://github.com/yourusername">
+        <a href="https://github.com/Subject3">
             <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/yourusername">
+        <a href="https://www.linkedin.com/in/ken-lieu-259092267/">
             <FaLinkedinIn />
         </a>
-        <a href="https://instagram.com/yourusername">
+        <a href="https://www.instagram.com/kimchi_lie/">
             <FaInstagram />
         </a>
-        <a href="mailto:john@example.com">
+        <a href="mailto:kenlieu@berkeley.edu">
             <HiOutlineMail />
         </a>
       </div>

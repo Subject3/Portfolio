@@ -1,7 +1,10 @@
 // components/Hero.jsx
+import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <h1>Hi, I'm Ken Lieu</h1>
 
       <h2 className="subtitle">PCB Design & Embedded Systems</h2>
@@ -16,10 +19,25 @@ export default function Hero() {
       </div>
 
       <div className="hero-icons">
-        {/* Replace with your actual icons (react-icons or similar) */}
-        <a href="#"><i className="fab fa-github"></i></a>
-        <a href="#"><i className="fab fa-linkedin"></i></a>
-        <a href="#"><i className="fas fa-envelope"></i></a>
+        <a href="https://github.com/Subject3" target="_blank" rel="noreferrer">
+          <FaGithub />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/ken-lieu-259092267/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedinIn />
+        </a>
+
+        <a href="https://www.instagram.com/kimchi_lie/" target="_blank" rel="noreferrer">
+          <FaInstagram />
+        </a>
+
+        <a href="mailto:kenlieu@berkeley.edu">
+          <HiOutlineMail />
+        </a>
       </div>
     </section>
   );
