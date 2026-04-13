@@ -15,14 +15,14 @@ export default function About() {
           </p>
 
           <p>
-            I specialize in front-end development with React, JavaScript, and
-            modern CSS. I also have experience with backend technologies and
-            databases.
+            I specialize in circuit analysis, PCB design, Kicad.
+            As for language, I'm familiar with C++, C, Java and
+            Python.
           </p>
 
           <p>
-            When I'm not coding, I enjoy exploring new tech, contributing to
-            projects, and relaxing with a good cup of coffee.
+            When I'm not in class, I love playing badminton, volleyball
+            and watching anime!
           </p>
 
           {/* INFO GRID */}
